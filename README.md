@@ -1,25 +1,24 @@
-<a href="https://www.streamingfast.io/">
-	<img width="100%" src="https://github.com/streamingfast/substreams/blob/develop/docs/assets/substreams-banner.png" alt="StreamingFast Substreams Banner" />
-</a>
+# my_project_solana_project Substreams modules
 
-# Substreams
+This package was initialized via `substreams init`, using the `sol-hello-world` template.
 
-Substreams is a powerful blockchain indexing technology, developed for The Graph Network.
+## Usage
 
-Substreams enables developers to write Rust modules, composing data streams alongside the community, and provides extremely high performance indexing by virtue of parallelization, in a streaming-first fashion.
+```bash
+substreams build
+substreams auth
+substreams gui       			  # Get streaming!
+```
 
-Substreams has all the benefits of StreamingFast Firehose, like low-cost caching and archiving of blockchain data, high throughput processing, and cursor-based reorgs handling.
+Optionally, you can publish your Substreams to the [Substreams Registry](https://substreams.dev).
 
-## Documentation
+```bash
+substreams registry login         # Login to substreams.dev
+substreams registry publish       # Publish your Substreams to substreams.dev
+```
 
-Full documentation for installing, running and working with Substreams is available at: https://docs.substreams.dev.
+## Modules
 
-## Contributing
+### `map_my_data`
 
-**Please first refer to the general
-[StreamingFast contribution guide](https://github.com/streamingfast/streamingfast/blob/master/CONTRIBUTING.md)**,
-if you wish to contribute to this code base.
-
-## License
-
-[Apache 2.0](LICENSE)
+This module will extract accounts from the Pump.Fun program from the 'blocks_without_votes' foundational module
