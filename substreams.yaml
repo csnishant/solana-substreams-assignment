@@ -35,7 +35,7 @@ modules:
    inputs:
    - map: solana:blocks_without_votes
    output:
-    type: proto:mydata.v1.MyData
+    type: proto:mydata.v1.Transfers
   # For performance, you should use a blockFilter whenever possible
   # see https://substreams.dev/streamingfast/solana-common/latest for details
   #
