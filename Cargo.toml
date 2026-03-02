@@ -8,6 +8,7 @@ name = "substreams"
 crate-type = ["cdylib"]
 
 [dependencies]
+bs58 = "0.5"
 hex-literal = "0.3.4"
 num-bigint = "0.4"
 num-traits = "0.2.15"
