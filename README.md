@@ -146,8 +146,7 @@ substreams run \
   my-project-solana-project-v0.1.0.spkg \
   map_my_data \
   --start-block 385870151 \
-  --stop-block 385870157 \
-  --output json
+  --stop-block 385870157
 ```
 
 Note:
